@@ -1,0 +1,123 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+			
+body {
+	background:url(acm_big.png), url(betweengrassandsky.png);
+	background-color: #080808;
+	background-repeat:no-repeat;
+	background-position: 95% 40px;
+	/*background-size: cover;*/
+			}
+			
+#wrapper {
+	width: 800px;
+	border-radius: 5px;
+	background-color:rgba(8,8,8,0.95);
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+			
+#main {
+	/*text-align:right;*/
+	font-family: sans-serif;
+	font-size: 115%;
+	color: white;
+	padding-left: 40px;
+	padding-top: 40px;
+	margin: 0px;
+	text-shadow:2px 2px #000000;
+}
+			
+#footer {
+	margin-top: 30px;
+	opacity: 0.2;
+	/*
+	padding: 3px;
+	border-radius: 4px;
+	background-color: #080808; 
+	width: 75px;
+	*/
+	/*
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:20px;
+ 	background-color: #00cde5;
+	*/
+}
+
+/* need to rework this so there's a content div, and avoid all these margin-left's */
+h1 {
+	text-decoration:overline;
+	/*this is additive i guess?*/
+	font-size: 400%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+			
+h2 {
+	text-decoration:overline;
+	/*this is additive i guess?*/
+	font-size: 250%;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+h3 {
+	font-size: 150%;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+			
+p {
+	font-family: monospace;
+	margin-left: 40px;
+	color: #e0e0e0;
+}
+
+p.sig {
+	margin-left: 80px;
+}
+			
+a {
+	color: #00cde5;
+}
+
+ul {
+	padding: -10px;
+	margin-top: -10px;
+	margin-left: 70px;
+}
+
+li {
+	font-family: monospace;
+	color: #e0e0e0;
+}
+
+img.logo {
+	padding: 3px;
+	
+	/*hack hack remove on logo formatting and margin fix */
+	margin: -3px;
+	margin-bottom: 10px;
+
+	background-color: white;
+	border-radius: 4px;
+}
+			
+#footer p {
+	margin-left: 40px;
+	font-size: 10px;
+	color: #e0e0e0;
+	margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+	/* text-align:right;
+	margin-right: 15px;
+	width: -200px;
+	position:relative;
+	*/
+}
